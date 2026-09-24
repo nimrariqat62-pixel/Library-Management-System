@@ -1,60 +1,48 @@
-Library Management System
+# Library Management System - C++ 📚
 
-A C++ based Library Management System developed to organize and manage library book records efficiently. This project demonstrates practical implementation of core C++ programming concepts through a real-world application.
+A combined C++ application designed to manage library operations, book issuance, and user records. Developed as part of hands-on C++ mastery for pre-BSCS and undergraduate Computer Science fundamentals.
 
-About
+---
 
-The Library Management System provides a structured way to maintain book records and perform common library operations. It was developed as a learning project to strengthen programming fundamentals and gain practical experience in software development.
+## 📌 Project Overview
+This project demonstrates the practical integration of multiple programming concepts into a single functional software system.
 
-Features
+- **Integrated Architecture:** Combines Arrays, Structs, Functions, File Stream I/O, and Object-Oriented Design.
+- **Core Functionality:** Allows adding new books, searching by ID/Title, issuing/returning books, and persistent storage.
+- **Academic Goal:** Part of a structured C++ portfolio target for the **Global Korea Scholarship (GKS)** and top-tier Master's programs in South Korea 🇰🇷.
 
-- Add new books and records
-- View available book records
-- Search for books
-- Update existing records
-- Manage library information
-- File-based data management
+---
 
-Technologies
+## 🛠 Key Features & Combined Concepts
+- **Data Encapsulation:** Class/Struct implementations for Book and User entities.
+- **File Persistence:** Uses `fstream` (`ifstream`/`ofstream`) to save and load book records permanently.
+- **Search & Utility Algorithms:** Fast lookup for book availability and member validation.
+- **Interactive CLI:** Menu-driven terminal interface for seamless operation.
 
-- C++
-- Object-Oriented Programming
-- File Handling
-- Data Management
+---
 
-Developer
+## 📂 Project Structure & Code Integration
 
-Nimra Riqat
+| File / Component | Core Concepts Integrated | Description |
+| :--- | :--- | :--- |
+| **`v1_basic_system.cpp`** | Loops, Arrays, Structs, Functions | Initial setup handling in-memory book storage and search logic. |
+| **`v2_combined_system.cpp`** | OOP (Classes, Encapsulation), File Handling | Advanced version integrating permanent file storage and structured record management. |
 
-This project was developed during my 2nd-year holidays as part of my continued learning and practice in C++ programming.
+---
 
-Learning Objective
+## 🚀 Ongoing Roadmap & Future Enhancements
+- [x] Basic Book Entry & Tabular Display
+- [x] Search & Borrowing Logic Integration
+- [ ] File Handling for Data Persistence
+- [ ] Multi-level User Roles (Admin vs. Student Access via Inheritance)
 
-The main objective of this project is to transform theoretical programming concepts into a practical application while improving:
+---
 
-- Problem-solving skills
-- C++ programming fundamentals
-- Object-oriented programming
-- File handling
-- Project development and organization
-
-Future Goals
-
-I plan to continue developing more projects as I progress toward my goal of pursuing Computer Science and preparing for the Global Korea Scholarship (GKS) in South Korea.
-
-My focus is on continuously improving my technical skills, building a strong GitHub portfolio, and preparing myself for future opportunities in Computer Science.
-
-YouTube
-
-I also create BTS-related content on my YouTube channel:
-
-Channel: "kimtaiehyungbts"
-
-Project Status
-
-Completed — Learning Project
-
-More projects and improvements will be added as I continue learning and developing my programming skills.
+## 💻 How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/nimrariqat62-pixel/library-management-system.git](https://github.com/nimrariqat62-pixel/library-management-system.git)
+   
 
 ---
 
