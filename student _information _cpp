@@ -1,0 +1,31 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+	
+	string name;
+	int rollnumber;
+	float marks;
+	bool passed;
+	
+	cout << "enter a name : ";
+	cin >> name;
+	cout << "enter a  rollnumber : ";
+	cin >> rollnumber;
+	cout << "enter a  marks : "; 
+	cin >> marks;
+	cout << "enter passed : ";
+	cin >> passed;
+	
+							
+	
+	if(passed ==0) {
+	cout << "student is not paseed" << endl;
+	}
+	else {
+		if (passed==1) 
+		cout << "student is passed" << endl;
+	}
+	return 0;
+}	
