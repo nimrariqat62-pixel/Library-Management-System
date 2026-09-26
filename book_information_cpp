@@ -1,0 +1,33 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+	
+	string title;
+	int bookid;
+	float price;
+	bool availability;
+	
+	cout << "enter a title : ";
+	cin >> title;
+	cout << "enter a bookid : ";
+	cin >> bookid;
+	cout << "enter a price : ";
+	cin >> price;
+	cout << "enter availability : ";
+	cin >> availability;
+	
+	if (availability== 0){
+	cout << "book is  not available" << endl;
+	}
+	else {
+		if (availability ==1)
+		cout << "book is available" << endl;
+		 
+	}
+	return 0;
+}
+	
+	
+	
